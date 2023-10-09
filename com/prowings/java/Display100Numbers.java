@@ -1,4 +1,4 @@
-package com.prowings.loops;
+package com.prowings.java;
 
 class Display100Numbers
 {

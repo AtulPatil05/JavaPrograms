@@ -1,4 +1,6 @@
 ///// SWAPPING NUMBERS USING THIRD VARIABLE/////////
+package com.prowings.java;
+
 import java.util.Scanner;
 class ThirdVariableSwap
 {

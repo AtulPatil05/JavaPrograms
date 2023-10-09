@@ -1,4 +1,6 @@
 ///// SWAPPING NUMBERS WITHOUT USING THIRD VARIABLE/////////
+package com.prowings.java;
+
 import java.util.Scanner;
 class SwappingNumbers
 {

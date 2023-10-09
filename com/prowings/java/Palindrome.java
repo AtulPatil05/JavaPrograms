@@ -1,3 +1,4 @@
+package com.prowings.java;
 import java.util.Scanner;
 class Palindrome{
 	public static void palindrome(int i){

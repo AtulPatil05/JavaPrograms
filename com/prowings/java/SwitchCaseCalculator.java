@@ -1,3 +1,4 @@
+package com.prowings.java;
 import java.util.*;
 class SwitchCaseCalculator
 {
