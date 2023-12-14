@@ -3,9 +3,10 @@ package com.prowings.java;
 import java.util.Scanner;
 
 public class FindPositiveAndNegativeNums {
+	static Scanner sc = new Scanner(System.in);
+
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter How many numbers You want take");
 		int i = sc.nextInt();
 		int[] nums = new int[i];
