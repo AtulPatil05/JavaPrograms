@@ -3,12 +3,12 @@ package com.prowings.java;
 import java.util.*;
 
 public class ForLoopArray {
+	static Scanner sc = new Scanner(System.in);
 
 	public static String gradeCalculator(int[] marks) {
 		int avg = 0;
 		int sum = 0;
 		for (int m : marks) {
-			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter Mark");
 			m = sc.nextInt();
 			sum += m;
@@ -21,8 +21,6 @@ public class ForLoopArray {
 	}
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		// create scanner object
 		System.out.println("Enter How many Subjects are there");
 		int i = sc.nextInt();
 
