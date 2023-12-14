@@ -1,4 +1,4 @@
-package com.prowings.array;
+package com.prowings.java;
 
 import java.util.Arrays;
 
