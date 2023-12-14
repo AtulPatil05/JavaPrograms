@@ -6,7 +6,7 @@ public class FindDuplicates {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 1, 2, 3, 4, 5, 1, 2, 3, 4, 5 };
+		int[] arr = { 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6, 7, 7 };
 
 		int[] res = findDuplicates(arr);
 		System.out.println("Unique Array " + Arrays.toString(res));
@@ -22,11 +22,12 @@ public class FindDuplicates {
 					count++;
 					break;
 				}
+		int index = 0;
 		int[] dup = new int[count];
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] == arr[j]) {
-					dup[i] = arr[i];
+					dup[index++] = arr[i];
 					break;
 				}
 			}
