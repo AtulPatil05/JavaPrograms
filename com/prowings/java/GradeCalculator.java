@@ -2,7 +2,7 @@ package com.prowings.java;
 
 import java.util.*;
 
-public class ForLoopArray {
+public class GradeCalculator {
 	static Scanner sc = new Scanner(System.in);
 
 	public static String gradeCalculator(int[] marks) {
