@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class AdditionOfArray {
 
 	public static void main(String[] args) {
-		int[] num1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 9 };
+		int[] num1 = { 1, 2, 3};
 		int[] num2 = { 3, 2, 3, 4, 5, 6, 7 };
 
 		System.out.println(Arrays.toString(additionOfArray(num1, num2)));
@@ -14,7 +14,6 @@ public class AdditionOfArray {
 
 	public static int[] additionOfArray(int[] num1, int[] num2) {
 		int length = 0;
-		int[] result = { 0 };
 		if (num1.length >= num2.length) {
 			length = num1.length;
 			int[] res = new int[length];
