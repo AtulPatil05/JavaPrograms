@@ -2,7 +2,7 @@ package com.prowings.array;
 
 import java.util.Arrays;
 
-public class ArraySuffling {
+public class ArrayShuffling {
 
 	public static void main(String[] args) {
 
