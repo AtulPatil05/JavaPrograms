@@ -9,7 +9,7 @@ public class FindDuplicates {
 		int[] arr = { 1, 2, 3, 4, 3, 5, 1, 2, 3, 4, 5, 6, 7, 7, 7, 1, 1, 2, 3, 3 };
 
 		int[] res = findDuplicates(arr);
-		System.out.println("Duplicate Elements " + Arrays.toString(res));
+		System.out.println("Duplicate Elements " + '\n' + Arrays.toString(res));
 
 	}
 
@@ -28,7 +28,6 @@ public class FindDuplicates {
 		}
 		int count = 0;
 		for (int i = 0; i < arr.length; i++) {
-
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] == arr2[j]) {
 					count++;
