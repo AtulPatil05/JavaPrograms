@@ -28,7 +28,7 @@ public class UniqueElementFromArray {
 	}
 
 	public static void main(String[] args) {
-		int[] nums = { 1, 1, 2, 5, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5 };
+		int[] nums = { 3, 5, 6, 3, 7, 5, 5, 3, 3, 2, 4, 5, 7, 4, 2, 5, 2 };
 
 		int[] result = findUniqueElements(nums);
 		System.out.println(Arrays.toString(result));
